@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* border: 1px solid black; */
   border-radius: 5px;
   background-color: white;
   box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
 
   margin-bottom: 0.5rem;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   display: flex;
   min-width: 400px;
 `;
@@ -78,7 +77,7 @@ export const PostInteractionBar = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 `;
 
 export const SaveButton = styled.span`
