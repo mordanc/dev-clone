@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "react-bootstrap/Card";
+
 import { TrendingCard } from "../trendingCard/TrendingCard";
 
 export const TrendingColumn = styled.div`
